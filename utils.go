@@ -26,7 +26,7 @@ func newCameraFilePathFromInternalImpl(input *cameraFilePathInternal, camera *Ca
 func newGphotoList() (*C.CameraList, error) {
 	var gpFileList *C.CameraList
 	if retval := C.gp_list_new((**C.CameraList)(unsafe.Pointer(&gpFileList))); retval != gpOk {
-		return nil, fmt.Errorf("Could not create a list, eror code %v", retval)
+		return nil, fmt.Errorf("Could not create a list, error code %v", retval)
 	}
 	return gpFileList, nil
 }
