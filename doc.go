@@ -9,5 +9,5 @@
 //You can also capture image previews and by doing it in a loop you can have live view on your computer screen
 //
 //For more information about installing required dependencies and troubleshooting please read readme file avaiable in  the
-//github repo under this link: https://github.com/szank/libgphoto2-go/blob/master/README.md
+//github repo under this link: https://github.com/szank/gphoto/blob/master/README.md
 package gphoto
